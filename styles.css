@@ -32,6 +32,16 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+#loading{
+    background:var(--bg-color) url(loading-gif.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    color: var(--main-color);
+    /* align-items: center; */
+    /* justify-content: center; */
+}
 .header{
     position: fixed;
     top: 0;
