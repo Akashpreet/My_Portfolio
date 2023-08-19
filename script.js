@@ -48,6 +48,10 @@ darkModeIcon.onclick = () => {
   darkModeIcon.classList.toggle('bx-moon');
   document.body.classList.toggle('dark-mode')
 };
+var loader=document.getElementById("loading");
+window.addEventListener("load",function(){
+  loader.style.display="none";
+});
 ScrollReveal({
   // reset: true,
   distance: '80px',
